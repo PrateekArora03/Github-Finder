@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-const About = () => {
+const About = ({ match }) => {
+  console.log(match);
   return (
     <Fragment>
       <h1>About this App</h1>
